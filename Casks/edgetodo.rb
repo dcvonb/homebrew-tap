@@ -1,8 +1,8 @@
 # Template for Casks/edgetodo.rb in dcvonb/homebrew-tap. scripts/release.sh rewrites `version`, `sha256` and `url`
 # there at each release (and copies this file when the tap has none yet). Issue #23.
 cask "edgetodo" do
-  version "2026.11.0"
-  sha256 "ce707172118b41b7802822e6e67446e8477b62e1f87079772cf686f92493371c"
+  version "2026.11.1"
+  sha256 "87bf18de1d6dd93769e5a7fc160af582faf89728c789d602372f77497a13b4d9"
 
   # The tap's own releases while dcvonb/EdgeTodo is private, that repo's once it is public.
   url "https://github.com/dcvonb/homebrew-tap/releases/download/v#{version}/EdgeTodo-#{version}.dmg"
